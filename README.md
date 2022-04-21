@@ -1,1 +1,2 @@
 # sample-maven-app Project
+.
