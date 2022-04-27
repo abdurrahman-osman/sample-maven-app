@@ -3,7 +3,9 @@ pipeline{
   stages {
   stage('maven install') {
     steps {
-         echo 'test!'
+         withMaven{
+              sh 'mvn clean install'
+          }
     }
   }
 
